@@ -6,7 +6,7 @@ import pattern.iterator.NameRepository;
 /**
  * Created by DongMinShin on 2016. 4. 24..
  */
-public class IteratorPattern implements ExecutorPattern {
+public class IteratorPatternExecutor implements PatternExecutor {
 
     @Override
     public void execute() {

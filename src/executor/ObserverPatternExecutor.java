@@ -7,7 +7,7 @@ import subject.Subject;
 /**
  * Created by DongMinShin on 2016. 4. 24..
  */
-public class ObserverPattern implements ExecutorPattern {
+public class ObserverPatternExecutor implements PatternExecutor {
 
     @Override
     public void execute() {

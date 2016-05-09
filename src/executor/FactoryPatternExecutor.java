@@ -7,7 +7,7 @@ import pattern.factory.ShapeType;
 /**
  * Created by DongMinShin on 2016. 5. 9..
  */
-public class FactoryPattern implements ExecutorPattern {
+public class FactoryPatternExecutor implements PatternExecutor {
 
     @Override
     public void execute() {
