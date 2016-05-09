@@ -1,5 +1,6 @@
 package main;
 
+import executor.FactoryPattern;
 import executor.IteratorPattern;
 import executor.ObserverPattern;
 
@@ -15,8 +16,12 @@ public class Main {
 //        observerPattern.execute();
 
         // Iterator Pattern
-        IteratorPattern iteratorPattern = new IteratorPattern();
-        iteratorPattern.execute();
+//        IteratorPattern iteratorPattern = new IteratorPattern();
+//        iteratorPattern.execute();
+
+        // Factory Pattern
+        FactoryPattern factoryPattern = new FactoryPattern();
+        factoryPattern.execute();
 
     }
 
