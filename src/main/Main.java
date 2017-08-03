@@ -1,8 +1,6 @@
 package main;
 
-import executor.FactoryPatternExecutor;
-import executor.PatternExecutor;
-import executor.ProxyPatternExecutor;
+import executor.*;
 
 /**
  * Created by DongMinShin on 2016. 4. 24..
@@ -24,8 +22,16 @@ public class Main {
 //        factoryPattern.execute();
 
         // Proxy Pattern
-        PatternExecutor proxyPattern = new ProxyPatternExecutor();
-        proxyPattern.execute();
+//        PatternExecutor proxyPattern = new ProxyPatternExecutor();
+//        proxyPattern.execute();
+
+        // Command Pattern
+//        CommandPatternExecutor commandPattern = new CommandPatternExecutor();
+//        commandPattern.execute();
+
+        // Interpreter Pattern
+        InterpreterPatternExecutor interpreterPattern = new InterpreterPatternExecutor();
+        interpreterPattern.execute();
 
     }
 
